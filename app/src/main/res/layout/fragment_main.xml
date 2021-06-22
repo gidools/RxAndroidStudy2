@@ -2,7 +2,9 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
 
     <Button
         android:id="@+id/rx_basic"
@@ -10,5 +12,12 @@
         android:layout_height="wrap_content"
         android:textSize="15sp"
         android:text="Observable and Subscriber"/>
+
+    <Button
+        android:id="@+id/rx_lambda"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="Lambda Expression"/>
 
 </LinearLayout>

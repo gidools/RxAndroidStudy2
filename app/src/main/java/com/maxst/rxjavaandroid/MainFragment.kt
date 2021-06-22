@@ -18,6 +18,9 @@ class MainFragment: Fragment() {
         layout.findViewById<Button>(R.id.rx_basic).setOnClickListener {
             clickedOn(ObservableAndSubscriberFragment())
         }
+        layout.findViewById<Button>(R.id.rx_lambda).setOnClickListener {
+            clickedOn(LambdaFragment())
+        }
 
         return layout
     }
