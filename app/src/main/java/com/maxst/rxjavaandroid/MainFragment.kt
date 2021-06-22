@@ -21,6 +21,9 @@ class MainFragment: Fragment() {
         layout.findViewById<Button>(R.id.rx_lambda).setOnClickListener {
             clickedOn(LambdaFragment())
         }
+        layout.findViewById<Button>(R.id.rx_map).setOnClickListener {
+            clickedOn(MapFragment())
+        }
 
         return layout
     }

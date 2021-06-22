@@ -20,4 +20,11 @@
         android:textSize="15sp"
         android:text="Lambda Expression"/>
 
+    <Button
+        android:id="@+id/rx_map"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="Filter map"/>
+
 </LinearLayout>
