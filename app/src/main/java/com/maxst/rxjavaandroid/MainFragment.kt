@@ -27,6 +27,9 @@ class MainFragment: Fragment() {
         layout.findViewById<Button>(R.id.rx_view_click).setOnClickListener {
             clickedOn(ViewClickFragment())
         }
+        layout.findViewById<Button>(R.id.rx_merge).setOnClickListener {
+            clickedOn(MergeFragment())
+        }
 
         return layout
     }
