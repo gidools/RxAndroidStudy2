@@ -27,4 +27,11 @@
         android:textSize="15sp"
         android:text="Filter map"/>
 
+    <Button
+        android:id="@+id/rx_view_click"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="View Click"/>
+
 </LinearLayout>
